@@ -7,6 +7,9 @@ gem 'rails', '4.1.0'
 gem 'sqlite3', group: [:development, :test]
 # Use bootstrap for styles
 gem 'bootstrap-sass', '3.3.1'
+# Use font awesome library
+gem 'font-awesome-sass', '4.2.0'
+
 # Use postgresql as the database for produciton
 group :production do
     gem 'pg'
