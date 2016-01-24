@@ -4,16 +4,13 @@
           <h1>Pro Account</h1>
           <p> Signup for Pro Account</p>
       <% else %>
-      
          <h1>Basic Account</h1>
-         <p> Signup for Basic Information account</p>
-          
+         <p>Signup for Basic Information account</p>
       <% end %>
   </div>
     <div class="col-md-6 col-md-offset-3">
         <div class="well">
             <h2>Sign up</h2>
-            
                 <% if params[:plan] == '2'%>
                   <%= render "pro_form" %>
                 <% else %>
