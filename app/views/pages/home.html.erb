@@ -7,7 +7,7 @@
          <div class="well">
             <h2 class="text-center">Basic Members</h2>
             <h4 class='text-center'>Sign up for basic access to infrastructure information.</h4>
-            <%= link_to "Sign up", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+            <%= link_to "Sign up", new_user_registration_path(plan: @basic_plan.id), class: 'btn btn-primary btn-lg btn-block' %>
          </div>
      </div>
      <div class="col-md-6">
@@ -15,7 +15,7 @@
             <div class="Well">
               <h2 class="text-center">Pro Admin</h2>
                <h4 class='text-center'>Request advance detail access.</h4>
-               <%= link_to "Corporate User Signup", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+               <%= link_to "Corporate User Signup", new_user_registration_path(plan: @pro_plan.id), class: 'btn btn-success btn-lg btn-block' %>
             </div>
      </div>
  </div>
